@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Data and cache
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+.faiss_index/
+*.pkl
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# Model files (large files)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.model
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+
+# Credentials and secrets
+secrets.toml
+*.env
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+Desktop.ini

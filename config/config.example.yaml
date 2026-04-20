@@ -1,0 +1,28 @@
+# API配置示例
+llm:
+  provider: "deepseek"
+  api_key: "your-deepseek-api-key-here"
+  base_url: "https://api.deepseek.com/v1"
+  model: "deepseek-chat"
+  max_tokens: 4096
+  temperature: 0.7
+  
+# 并发配置
+concurrency:
+  max_concurrent_requests: 5
+  timeout: 60
+  retry_times: 3
+  
+# 工具配置
+tools:
+  arxiv:
+    max_results: 10
+  web_scraper:
+    timeout: 30
+    user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    
+# 日志配置
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/agent.log"

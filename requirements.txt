@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+pydantic
+httpx
+aiohttp
+python-dotenv
+pyyaml
+arxiv
+beautifulsoup4
+lxml
+markdown
+openai
+tenacity
