@@ -110,14 +110,9 @@ llm_agent_project/
 - ✅ API接入与高并发处理
 - ✅ 可视化与执行日志追踪
 
-## License
-
-MIT License
-
 ## Author
 
-[您的名字]
-
+邓牧遥
 ## Acknowledgments
 
 - 基于Streamlit框架构建
